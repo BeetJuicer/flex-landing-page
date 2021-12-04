@@ -90,3 +90,56 @@ button a{
     font-weight: bold;
     font-size: 18px;
 }
+
+.section-two{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top:20px;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.section-two h2{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.deck{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 35px;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 210px;
+}
+.placeholder{
+    border: 5px #3882F6 solid;
+    border-radius: 15px;
+    height: 170px;
+    width: 165px;
+}
+
+.card-text{
+    width: auto;
+    padding: 0px 10px;
+    text-align: center;
+    color: #707070;
+    font-size: 18px;
+}
+
+.section-three{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top:20px;
+    gap: 20px;
+    padding-bottom: 100px;
+}
